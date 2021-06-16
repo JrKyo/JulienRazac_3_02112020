@@ -3,6 +3,9 @@
 	<head>
         <meta charset="utf-8">	
         <link rel="stylesheet" href="css/header.css"/>
+        <link rel="stylesheet" href="css/nav.css"/>
+        <link rel="stylesheet" href="css/section.css"/>
+        <meta name="viewport" content="width=device-width"/>
         <script src="https://kit.fontawesome.com/b4e3cbf752.js" crossorigin="anonymous"></script>	
         <title>Oh my food</title>
     </head>
@@ -10,26 +13,63 @@
     <body>
         <header>
             <div id="logo">
-                <img src="images/logo/ohmyfood.png" alt="logo"/>
+                <img class="img-logo" src="images/logo/ohmyfood.png" alt="logo"/>
             </div>
                  
             <div class="localisation">
                  <p><i class="fas fa-map-marker-alt"></i> Paris, Belleville</p>
             </div>
            
-            <div class="res">                
+            <div class="reservez">                
                 <h1>Réservez le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <button id="bouton">Explorer nos restaurants</button>
+                <button id="bouton"><strong>Explorer nos restaurants</strong></button>
             </div>
             
         </header>
 
         <nav>
             <h1>Fonctionnement</h1>
-            <a href="#"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</a>
-			<a href="#"><i class="fas fa-bars"></i>Composez votre menu</a>
-			<a href="#"><i class="fas fa-store"></i>Dégustez au restaurant</a>
+
+            <div class="info-nav">
+                <a href="#"><p>1</p><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</a>
+            </div>
+            <div class="info-nav">
+                <a href="#"><p>2</p><i class="fas fa-bars"></i>Composez votre menu</a>
+            </div>
+            <div class="info-nav">
+                <a href="#"><p>3</p><i class="fas fa-store"></i>Dégustez au restaurant</a>
+            </div>			
         </nav>
+
+        <section>
+            <div id="restaurants">
+                <h1>Restaurants</h1>
+
+					<div class="carte-resto">
+					 <a href="#"><img class="img-carte-resto" src="images/restaurants/La_palette_du_goût.jpg" alt="La_palette_du_goût"></a>
+					<span>
+                        <strong>La palette du goût</strong><i class="far fa-heart"></i>
+                    </span>
+					<span>
+						Ménilmontant
+					</span>
+                    </div>
+
+                    <div class="carte-resto">
+                        <a href="#"><img class="img-carte-resto" src="images/restaurants/La_note_enchantée.jpg" alt="La_note_enchantée"></a>
+                       <span>
+                           <strong>La palette du goût</strong><i class="far fa-heart"></i>
+                       </span>
+                       <span>
+                           Ménilmontant
+                       </span>
+                       </div>
+
+            </div>
+            
+
+
+        </section>
     </body>
 </html>
