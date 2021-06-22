@@ -1,0 +1,34 @@
+body
+{
+    margin: auto;
+    font-family: Arial;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: flex-start;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 10px;
+}
+
+.img-logo
+{
+    width: 50%;
+}
+
+#retour
+{
+    margin-right: 15%;
+    margin-left: 5%;
+    color: black;
+    padding-top: 2%;
+}
+
+.img-carte-resto
+{
+    width: 100%;
+    height: 50%;
+}

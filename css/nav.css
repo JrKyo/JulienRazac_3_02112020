@@ -1,6 +1,17 @@
+nav
+{
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
 nav h1
 {
     padding-left: 5%;
+}
+
+.fonctionnement
+{
+    margin: 0% 5% 0% 5%;
 }
 
 .info-nav
@@ -48,4 +59,9 @@ nav h1
 .info-nav > a:hover
 {
     background-color: #f5edff;
+}
+
+.deux > a
+{
+    padding-right: 25%;
 }
