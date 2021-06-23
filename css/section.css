@@ -15,6 +15,12 @@
     box-shadow: 0 1px 8px grey;
 }
 
+.carte-resto > span
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .img-carte-resto
 {
     width: 100%;
@@ -27,6 +33,11 @@
 {
     display: flex;
     justify-content: flex-end;
+}
+
+.coeur > i:hover
+{
+    color: blueviolet;
 }
 
 img
