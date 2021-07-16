@@ -9,8 +9,8 @@
     right: 0;
     bottom: 0;
     z-index: 20;
-    -webkit-animation: spinner 2s linear;
-    animation: spinner 2s linear;
+    -webkit-animation: spinner 3s linear;
+    animation: spinner 3s linear;
     visibility: hidden; 
 }
 
@@ -48,8 +48,8 @@
     width: 100px;
     height: 100px;
     margin: auto;
-    -webkit-animation: spin 1.5s linear;
-    animation: spin 1.5s linear;
+    -webkit-animation: spin 3s linear;
+    animation: spin 3s linear;
     z-index: 10;
     visibility: hidden;
 }

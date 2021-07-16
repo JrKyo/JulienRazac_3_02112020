@@ -4,6 +4,11 @@ body
     font-family: 'Roboto';
 }
 
+.titre_menu
+{
+    font-family: 'Shrikhand';
+}
+
 #logo
 {
     display: flex;

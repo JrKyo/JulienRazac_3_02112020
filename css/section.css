@@ -4,6 +4,26 @@
     padding: 5%;
 }
 
+#restaurants > h1
+{
+    margin-bottom: 15%;
+}
+
+.nouveau 
+{
+    margin-right: 15px;
+    margin-left: 225px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    color: #008766;
+    background-color: #99E2D0;
+    margin-bottom: -45px;
+    z-index: 5;
+}
+
 .carte-resto
 {
     display: flex;
