@@ -10,7 +10,7 @@
     flex-direction: column;
     border-radius: 15px;
     background-color: white;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     margin-bottom: 5%;
     box-shadow: 0 1px 8px grey;
 }
@@ -29,15 +29,18 @@
     border-radius: 15px 15px 0px 0px;
 }
 
-.coeur > i
+.coeur
 {
     display: flex;
     justify-content: flex-end;
+
+    font-size: x-large;
+    margin-top: -30px;
 }
 
 .coeur > i:hover
 {
-    color: blueviolet;
+    color: #9356DC;
 }
 
 img
