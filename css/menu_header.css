@@ -4,9 +4,43 @@ body
     font-family: 'Roboto';
 }
 
+.titrecoeur
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .titre_menu
 {
     font-family: 'Shrikhand';
+}
+
+.coeur
+{
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: x-large;
+    margin-top: 25px;
+    padding-right: 15px;
+}
+
+.ha
+{
+    z-index: 1;
+    background-color: #f6f6f6;
+}
+
+.ha:active
+{
+    z-index: -15;
+}
+
+.hab
+{
+    margin-left: -24px;
+    color: #9356DC;
 }
 
 #logo
