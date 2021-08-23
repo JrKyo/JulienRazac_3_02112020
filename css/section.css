@@ -67,22 +67,14 @@ img
 {
     object-fit: cover;
 }
-
-.ha
-{
-    z-index: 1;
-    background-color: white;
+.coeur .fas{
+    display:none;
 }
-
-.ha:active
-{
-    z-index: -15;
+.coeur .far:focus:before{
+    background-color: red;
+    display: none;
 }
-
-.hab
-{
-    margin-left: -25px;
-    color: #9356DC;
+.coeur .far:focus + .fas{
+    display:block;
 }
-
 

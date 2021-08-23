@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px)
+{
+    .global
+    {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .case-plats
+    {
+        width: 50%;
+        padding-top: 0;
+    }
+}
