@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/b4e3cbf752.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0b2e613500.js" crossorigin="anonymous"></script>
         <title>Oh my food</title>
     </head>
     
@@ -32,14 +32,14 @@
             </div>
            
             <div class="reservez">                
-                <h2>Réservez le menu qui vous convient</h2>
+                <h1>Réservez le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <button id="bouton"><strong>Explorer nos restaurants</strong></button>
+                <button class="bouton"><strong>Explorer nos restaurants</strong></button>
             </div>
         </header>
 
         <nav>
-            <h1>Fonctionnement</h1>
+            <h2>Fonctionnement</h2>
 
             <div class="fonctionnement">
                 <div class="info-nav">
@@ -58,75 +58,116 @@
             <div id="restaurants">
                 <h1>Restaurants</h1>
 
-					<div class="carte-resto">
-                        <span class="nouveau">
+                <div class="all-cards">
+                    <div class="carte-resto">
+                        <div class="box">
+                            <span class="nouveau">
                             Nouveau
-                        </span>
+                            </span>
+                        </div>
+                        
+
                         <a href="La_palette_du_gout.html"><img class="img-carte-resto" src="images/restaurants/La_palette_du_goût.jpg" alt="La_palette_du_goût"></a>
-                        <span>
-                            <strong>La palette du goût</strong>
-                        </span>
-                        <span>
-                            Ménilmontant
-                        </span>
-                        <span class="coeur">
-                            <i class="far fa-heart"></i>
-                            <i class="fas fa-heart"></i>
-                        </span>
+                       
+                        <div class="description">
+                            <div class="text">
+                                <div>
+                                    <strong>La palette du goût</strong>
+                                </div>
+                                <div>
+                                    Ménilmontant
+                                </div>
+                            </div>
+                        
+                            <span class="coeur">
+                                <span class="coeur1"><i class="far fa-heart"></i></span>
+                                <span class="coeur2"><i class="fa-solid fa-heart"></i></span>                       
+                            </span>
+                        </div>
                     </div>
-
-                    <div class="space"></div>
-
+                   
                     <div class="carte-resto">
-                        <span class="nouveau">
+                        <div class="box">
+                            <span class="nouveau">
                             Nouveau
-                        </span>
+                            </span>
+                        </div>
+
                         <a href="La_note_enchantee.html"><img class="img-carte-resto" src="images/restaurants/La_note_enchantée.jpg" alt="La_note_enchantée"></a>
-                       <span>
-                           <strong>La note enchantée</strong>
-                       </span>
-                       <span>
-                           Charonne
-                       </span>
-                       <span class="coeur">
-                        <i class="far fa-heart"></i>
-                       </span>
+                       
+                       <div class="description">
+                        <div class="text">
+                            <div>
+                                <strong>La note enchantée</strong>
+                            </div>
+                            <div>
+                                Charonne
+                            </div>
+                        </div>
+                    
+                        <span class="coeur">
+                            <span class="coeur1"><i class="far fa-heart"></i></span>
+                            <span class="coeur2"><i class="fa-solid fa-heart"></i></span>                       
+                        </span>
+                    </div>
                     </div>
 
                     <div class="carte-resto">
+
                         <a href="A_la_française.html"><img class="img-carte-resto" src="images/restaurants/À_la_française.jpg" alt="À_la_française"></a>
-                       <span>
-                           <strong>À la française</strong>
-                       </span>
-                       <span>
-                           Cité rouge
-                       </span>
-                       <span class="coeur">
-                        <i class="far fa-heart"></i>
+                    
+                       <div class="description">
+                        <div class="text">
+                            <div>
+                                <strong>À la française</strong>
+                            </div>
+                            <div>
+                                Cité rouge
+                            </div>
+                        </div>
+                    
+                        <span class="coeur">
+                            <span class="coeur1"><i class="far fa-heart"></i></span>
+                            <span class="coeur2"><i class="fa-solid fa-heart"></i></span>                       
                         </span>
-                    </div> 
+                     </div>
+                    </div>
+                    
 
                     <div class="carte-resto">
+
                         <a href="Le_delice_des_sens.html"><img class="img-carte-resto" src="images/restaurants/Le_délice_des_sens.jpg" alt="Le_délice_des_sens"></a>
-                       <span>
-                           <strong>Le délice des sens</strong>
-                       </span>
-                       <span>
-                           Folie-Méricourt
-                       </span>
-                       <span class="coeur">
-                        <i class="far fa-heart"></i>
+
+                       <div class="description">
+                        <div class="text">
+                            <div>
+                                <strong>Le délice des sens</strong>
+                            </div>
+                            <div>
+                                Folie-Méricourt
+                            </div>
+                        </div>
+                    
+                        <span class="coeur">
+                            <span class="coeur1"><i class="far fa-heart"></i></span>
+                            <span class="coeur2"><i class="fa-solid fa-heart"></i></span>                       
                         </span>
-                    </div> 
-            </div>
+                    </div>
+                    </div>
+                </div>
+					 
+            </div> 
         </section>
 
         <footer>
             <img id="logo-footer" src="images/logo/ohmyfood.png" alt="logo">
+            <div class="liens">
             <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
             <a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a>
             <a href="#">Mentions légales</a>
             <a href="mailto:contact@ohmyfood.com">Contact</a>
+            </div>
+
         </footer>
         </div>
         

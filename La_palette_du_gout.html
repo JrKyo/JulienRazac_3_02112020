@@ -12,15 +12,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/b4e3cbf752.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0b2e613500.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
         <div class="global">
         
         <header>
-            <div id="logo">
-                <a id="retour" href="Acceuil.html"><i class="fas fa-arrow-left"></i></a> <img class="img-logo" src="images/logo/ohmyfood.png" alt="logo"/>
+
+            <a id="retour" href="Acceuil.html"><i class="fa-solid fa-arrow-left"></i></a>
+
+            <div id="logo">                
+                <img class="img-logo" src="images/logo/ohmyfood.png" alt="logo"/>
             </div>
         </header>
 
@@ -32,8 +35,8 @@
                 <div class="titrecoeur">
                      <h1 class="titre_menu">La palette du goût</h1> 
                      <div class="coeur">
-                         <i class="far fa-heart ha"></i>
-                         <i class="fas fa-heart hab"></i>
+                        <span class="coeur1"><i class="far fa-heart"></i></span>
+                        <span class="coeur2"><i class="fa-solid fa-heart"></i></span>                       
                     </div>
                 </div>
                
@@ -44,21 +47,25 @@
                             <div class="border"></div>
                             
                             <div class="case-plats case1">
-                            <div class="text">
-                                <div class="nom-plats">
-                                    <p>Fricassée d'escargot</p>
+                        
+                                <div class="text">
+                                    <div class="nom-plats">
+                                        <p>Fricassée d'escargot</p>
+                                    </div>
+                                    <div class="accompagnement"> 
+                                        <p>Au piment d'espelette</p>
+                                    </div>
                                 </div>
-                                <div class="accompagnement"> 
-                                    <p>Au piment d'espelette</p>
+                                
+                                <div class="prix_box">
+                                    <div class="prix">
+                                    25€
                                 </div>
-                            </div>
-                            
-                            <div class="prix">
-                                25€
-                            </div>
-                            <div class="box">
-                                <i class="far fa-check-circle"></i>
-                            </div>
+                                <div class="box">
+                                    <i class="far fa-check-circle"></i>
+                                </div>
+                                </div>
+                                
                             </div>
 
                             <div class="case-plats case2">
@@ -71,11 +78,13 @@
                                     </div>
                                 </div>
                                 
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     35€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
 
@@ -89,11 +98,13 @@
                                     </div>
                                 </div>
                                 
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     20€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -112,12 +123,14 @@
                                     <p>Accompagné de sa ribambelle de légumes</p> 
                                 </div>
                             </div>
+                            <div class="prix_box">
                                 <div class="prix">
-                                        40€
-                                </div>                         
-                                <div class="box">
-                                    <i class="far fa-check-circle"></i>
-                                </div>
+                                40€
+                            </div>
+                            <div class="box">
+                                <i class="far fa-check-circle"></i>
+                            </div>
+                            </div>
                             </div>
 
                             <div class="case-plats case5">
@@ -130,11 +143,13 @@
                                     </div>
                                 </div>
                                
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     35€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
 
@@ -148,11 +163,13 @@
                                     </div>
                                 </div>
                                
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     44€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -172,11 +189,13 @@
                                     </div>
                                 </div>
                             
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     18€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
 
@@ -190,11 +209,13 @@
                                     </div>
                                 </div>
                                 
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     22€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
 
@@ -208,11 +229,13 @@
                                     </div>
                                 </div>
                                
-                                <div class="prix">
+                                <div class="prix_box">
+                                    <div class="prix">
                                     23€
                                 </div>
                                 <div class="box">
                                     <i class="far fa-check-circle"></i>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -225,11 +248,16 @@
         </section>
 
         <footer>
+
             <img id="logo-footer" src="images/logo/ohmyfood.png" alt="logo">
-            <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
-            <a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a>
-            <a href="#">Mentions légales</a>
-            <a href="mailto:contact@ohmyfood.com">Contact</a>
+
+            <div class="liens">
+                <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
+                <a href="#"><i class="fas fa-hands-helping"></i> Devenir partenaire</a>
+                <a href="#">Mentions légales</a>
+                <a href="mailto:contact@ohmyfood.com">Contact</a>
+            </div>
+            
         </footer>
 
         </div>   
