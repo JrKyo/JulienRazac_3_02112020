@@ -1,0 +1,86 @@
+@media screen and (min-width: 768px) {
+  .global {
+    margin: auto;
+
+    #logo {
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+      .img-logo {
+        width: 15%;
+      }
+    }
+
+    .localisation {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      box-shadow: inset 0px 0px 0px 0px grey;
+    }
+
+    .reservez {
+      padding: 40px;
+
+      .bouton {
+        padding: 15px;
+      }
+    }
+
+    nav {
+      margin-top: 70px;
+      margin-bottom: 70px;
+
+      h2 {
+        margin-left: 100px;
+      }
+
+      .fonctionnement {
+        display: flex;
+        justify-content: center;
+        margin: 0 50px;
+
+        .info-nav {
+          margin: 20px;
+          width: 100%;
+        }
+      }
+    }
+
+    #restaurants {
+      padding: 50px 100px;
+
+      h1 {
+        margin-bottom: 50px;
+        margin-left: 70px;
+      }
+
+      .all-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .carte-resto {
+          margin: 30px 60px;
+        }
+      }
+    }
+
+    footer {
+      flex-direction: row-reverse;
+      padding: 0;
+      padding-top: 70px;
+      align-items: center;
+
+      #logo-footer {
+        width: 10%;
+        padding-bottom: 50px;
+        margin: 0 70px;
+      }
+      .liens {
+        flex-direction: row;
+        a {
+          padding-bottom: 50px;
+          margin-right: 50px;
+        }
+      }
+    }
+  }
+}

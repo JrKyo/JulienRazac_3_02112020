@@ -1,0 +1,8 @@
+{
+  "scripts":  {
+  "sassindex":"sass --watch sass/style.scss css/style.css",
+  "sasspage":"sass --watch sass/restauration.scss css/restauration.css"},
+  "dependencies": {
+    "sass": "^1.67.0"
+  }
+}

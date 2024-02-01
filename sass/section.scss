@@ -1,0 +1,85 @@
+#restaurants {
+  background-color: #f6f6f6;
+  padding: 5%;
+  h1 {
+    margin-bottom: 15%;
+  }
+  .all-cards {
+    display: flex;
+    flex-direction: column;
+    img {
+      object-fit: cover;
+    }
+    .carte-resto {
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 0 1px 8px grey;
+      margin-bottom: 5%;
+      .box {
+        display: flex;
+        justify-content: flex-end;
+        .nouveau {
+          position: absolute;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          font-weight: bold;
+          color: #008766;
+          background-color: $terciaire;
+          z-index: 5;
+          padding: 2px 20px;
+          border-radius: 5px;
+          margin: 15px;
+        }
+      }
+      .img-carte-resto {
+        width: 100%;
+        height: 185px;
+        border-radius: 15px 15px 0px 0px;
+      }
+      .description {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 25px;
+        .coeur {
+          display: flex;
+          justify-content: flex-end;
+          font-size: x-large;
+          position: relative;
+
+          span {
+            padding-left: 5%;
+            padding-right: 5%;
+          }
+          .coeur1 {
+            position: absolute;
+            animation: animationCoeur1;
+            opacity: 1;
+            transition: all 300ms ease-in-out;
+          }
+
+          .coeur2 {
+            i {
+              color: transparent;
+              background-clip: text;
+              -webkit-background-clip: text;
+              background-image: linear-gradient($secondaire, $primaire);
+              animation: animationCoeur;
+              transition: all 1s ease-in-out;
+              opacity: 0;
+            }
+          }
+          &:hover .coeur2 > .fa-heart {
+            /* visibility: visible; */
+            opacity: 1;
+          }
+          &:hover > .coeur1 {
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}

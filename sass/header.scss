@@ -1,0 +1,61 @@
+@use "./variable" as var;
+
+body {
+  margin: auto;
+  font-family: "Roboto";
+
+  #logo {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 10px;
+  }
+
+  .img-logo {
+    width: 50%;
+  }
+
+  .localisation {
+    display: flex;
+    justify-content: center;
+
+    background-color: #eaeaea;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    box-shadow: inset 0px 10px 5px -10px grey;
+  }
+
+  .reservez {
+    text-align: center;
+    background-color: var.$lightgrey;
+    padding: 10% 5% 15% 5%;
+
+    h1 {
+      margin: 0% 5% 0% 5%;
+    }
+
+    p {
+      color: grey;
+    }
+
+    .bouton {
+      background: linear-gradient(var.$secondaire, var.$primaire);
+      border: none;
+      padding: 5%;
+      border-radius: 30px;
+      box-shadow: 0 1px 8px grey;
+
+      &:hover {
+        transform: scale(1.15);
+        opacity: 80%;
+      }
+    }
+
+    strong {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}

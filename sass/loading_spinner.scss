@@ -1,0 +1,32 @@
+.page_loader {
+  height: 100%;
+  background: white;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  -webkit-animation: spinner 3s linear;
+  animation: spinner 3s linear;
+  visibility: hidden;
+  .loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid $lightgrey;
+    border-top-color: $primaire;
+    border-bottom-color: $secondaire;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    -webkit-animation: spin 3s linear;
+    animation: spin 3s linear;
+    z-index: 10;
+    visibility: hidden;
+  }
+}

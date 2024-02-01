@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  padding: 5%;
+  #logo-footer {
+    width: 30%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    padding-bottom: 5%;
+  }
+  .liens {
+    display: flex;
+    flex-direction: column;
+    a {
+      text-decoration: none;
+      color: white;
+      padding-bottom: 3%;
+    }
+  }
+}
